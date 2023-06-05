@@ -1,6 +1,6 @@
 #PsCodesGen2.0
 
-```
+
 # Generador de Códigos PSN
 
 Este proyecto es un generador de códigos de PSN (PlayStation Network) que te permite generar y verificar rápidamente códigos aleatorios. Puedes especificar la cantidad de códigos que deseas generar y verificar, y también recibir notificaciones de los códigos válidos a través de un webhook de Discord.
@@ -53,4 +53,4 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENS
 ¡Disfruta generando y verificando códigos de PSN con este generador rápido! Si tienes alguna pregunta o sugerencia, no dudes en contactar conmigo.
 
 ¡Agradecimientos especiales a Markelson57 por crear este generador de códigos PSN!
-```
+
