@@ -23,10 +23,10 @@ class PSNCodeGenerator:
         os.system('cls' if os.name == 'nt' else 'clear')
         if os.name == "nt":
             print("")
-            ctypes.windll.kernel32.SetConsoleTitleW("Generador y Verificador de Códigos PSN - Creado por [TU NOMBRE]")
+            ctypes.windll.kernel32.SetConsoleTitleW("Generador y Verificador de Códigos PSN - Creado por Markelson57")
 
         else:
-            print(f'\33]0;Generador y Verificador de Códigos PSN - Creado por [TU NOMBRE]\a', end='', flush=True)
+            print(f'\33]0;Generador y Verificador de Códigos PSN - Creado por Markelson57\a', end='', flush=True)
 
         print("""
 Generador Rápido de Códigos PSN""")
