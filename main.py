@@ -48,9 +48,9 @@ Generador Rápido de Códigos PSN""")
             try:
                 code = "".join(random.choices(
                     string.ascii_uppercase + string.digits,
-                    k = 10
+                    k = 12
                 ))
-                url = f"https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/999/{code}"
+                url = f"https://store.playstation.com/store/api/chihiro/00_09_000/container/ES/es/999/{code}"
 
                 result = self.quickChecker(url, webhook)
 
