@@ -31,7 +31,7 @@ class PSNCodeGenerator:
         print("""
 Generador Rápido de Códigos PSN""")
         time.sleep(2)
-        self.slowType("Creado por [TU NOMBRE]", .02)
+        self.slowType("Creado por Markelson57", .02)
         time.sleep(1)
         self.slowType("\n¿Cuántos códigos deseas generar y verificar?: ", .02, newLine = False)
 
@@ -62,11 +62,11 @@ Generador Rápido de Códigos PSN""")
                 print(f" Error | {url} ")
 
             if os.name == "nt":
-                ctypes.windll.kernel32.SetConsoleTitleW(f"Generador y Verificador de Códigos PSN - {len(valid)} Válidos | {invalid} Inválidos - Creado por [TU NOMBRE]")
+                ctypes.windll.kernel32.SetConsoleTitleW(f"Generador y Verificador de Códigos PSN - {len(valid)} Válidos | {invalid} Inválidos - Creado por Markelson57")
                 print("")
 
             else:
-                print(f'\33]0;Generador y Verificador de Códigos PSN - {len(valid)} Válidos | {invalid} Inválidos - Creado por [TU NOMBRE]\a', end='', flush=True)
+                print(f'\33]0;Generador y Verificador de Códigos PSN - {len(valid)} Válidos | {invalid} Inválidos - Creado por Markelson57\a', end='', flush=True)
 
         print(f"""
 Resultados:
