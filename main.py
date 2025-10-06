@@ -77,7 +77,7 @@ Resultados:
         input("\n¡Fin del programa! Presiona Enter 5 veces para cerrarlo.")
         [input(i) for i in range(4,0,-1)]
 
-    def slowType(self, text, speed, newLine = True):
+    def slowType(self, text, speed = 0.1, newLine = True):
         for i in text:
             print(i, end = "", flush = True)
             time.sleep(speed)
